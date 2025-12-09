@@ -1,0 +1,302 @@
+/* Macon County Website - Custom Styles */
+/* Simple, clean design for government website */
+
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+/* CSS Variables - Color Palette */
+:root {
+    --primary-blue: #1B4F72;
+    --secondary-blue: #2E86AB;
+    --accent-blue: #5DADE2;
+    --dark-gray: #2C3E50;
+    --light-blue: #EBF5FB;
+    --white: #FFFFFF;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--dark-gray);
+    background-color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+
+/* Skip Link for Accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--primary-blue);
+    color: var(--white);
+    padding: 8px 16px;
+    z-index: 9999;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Typography */
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary-blue);
+    margin-bottom: 0.75rem;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-blue);
+}
+
+a {
+    color: var(--secondary-blue);
+}
+
+a:hover {
+    color: var(--primary-blue);
+}
+
+/* Header */
+.site-header {
+    background-color: var(--white);
+    padding: 15px 0;
+    border-bottom: 3px solid var(--primary-blue);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-img {
+    height: 60px;
+    width: auto;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-blue);
+    margin: 0;
+}
+
+.site-subtitle {
+    font-size: 0.9rem;
+    color: var(--dark-gray);
+    margin: 0;
+}
+
+/* Navigation */
+.main-nav {
+    background-color: var(--primary-blue);
+}
+
+.main-nav .navbar-nav .nav-link {
+    color: var(--white);
+    font-weight: 600;
+    padding: 12px 16px;
+}
+
+.main-nav .navbar-nav .nav-link:hover,
+.main-nav .navbar-nav .nav-link.active {
+    background-color: var(--secondary-blue);
+}
+
+.main-nav .dropdown-menu {
+    background-color: var(--primary-blue);
+    border: none;
+}
+
+.main-nav .dropdown-item {
+    color: var(--white);
+    padding: 10px 20px;
+}
+
+.main-nav .dropdown-item:hover {
+    background-color: var(--secondary-blue);
+}
+
+.navbar-toggler {
+    border-color: var(--white);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Hero Section (Simple) */
+.hero-section {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-section h2 {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.hero-section p {
+    font-size: 1.1rem;
+}
+
+/* Page Banner */
+.page-banner {
+    background-color: var(--primary-blue);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.page-banner h1 {
+    color: var(--white);
+    margin: 0;
+}
+
+.page-banner p {
+    color: var(--light-blue);
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    background: var(--light-blue);
+    padding: 10px 15px;
+    margin-bottom: 0;
+}
+
+/* Main Content */
+main {
+    min-height: 60vh;
+    padding: 40px 0;
+}
+
+/* Cards - Simple style, no animations */
+.card {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: var(--primary-blue);
+    font-weight: 600;
+}
+
+/* Quick Links Section */
+.quick-links {
+    background-color: var(--light-blue);
+    padding: 40px 0;
+}
+
+.quick-link-card {
+    text-align: center;
+    padding: 25px 15px;
+    background: var(--white);
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.quick-link-icon {
+    font-size: 2.5rem;
+    color: var(--primary-blue);
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn-primary-blue {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+    color: var(--white);
+    padding: 10px 20px;
+}
+
+.btn-primary-blue:hover {
+    background-color: var(--secondary-blue);
+    border-color: var(--secondary-blue);
+    color: var(--white);
+}
+
+/* Tables */
+.table thead {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+.table-primary-blue {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: var(--light-blue);
+    padding: 20px;
+}
+
+.sidebar h3 {
+    border-bottom: 2px solid var(--primary-blue);
+    padding-bottom: 10px;
+}
+
+/* Footer */
+.site-footer {
+    background-color: var(--dark-gray);
+    color: var(--white);
+    padding: 40px 0 20px;
+}
+
+.site-footer h4 {
+    color: var(--accent-blue);
+}
+
+.site-footer a {
+    color: rgba(255,255,255,0.8);
+}
+
+.site-footer a:hover {
+    color: var(--white);
+}
+
+/* Focus States for Accessibility */
+a:focus,
+button:focus,
+input:focus {
+    outline: 2px solid var(--accent-blue);
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .hero-section {
+        padding: 40px 0;
+    }
+    
+    .hero-section h2 {
+        font-size: 1.5rem;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    .site-title {
+        font-size: 1.2rem;
+    }
+}
