@@ -6,11 +6,11 @@
 
 /* CSS Variables - Color Palette */
 :root {
-    --primary-blue: #1B4F72;
-    --secondary-blue: #2E86AB;
-    --accent-blue: #5DADE2;
+    --primary-green: #004040;
+    --secondary-green: #006B5A;
+    --accent-green: #48A999;
     --dark-gray: #2C3E50;
-    --light-blue: #EBF5FB;
+    --light-green: #E8F5F1;
     --white: #FFFFFF;
 }
 
@@ -30,7 +30,7 @@ body {
     position: absolute;
     top: -40px;
     left: 0;
-    background: var(--primary-blue);
+    background: var(--primary-green);
     color: var(--white);
     padding: 8px 16px;
     z-index: 9999;
@@ -44,36 +44,36 @@ body {
 h1 {
     font-size: 32px;
     font-weight: 700;
-    color: var(--primary-blue);
+    color: var(--primary-green);
     margin-bottom: 1rem;
 }
 
 h2 {
     font-size: 24px;
     font-weight: 600;
-    color: var(--primary-blue);
+    color: var(--primary-green);
     margin-bottom: 0.75rem;
 }
 
 h3 {
     font-size: 20px;
     font-weight: 600;
-    color: var(--primary-blue);
+    color: var(--primary-green);
 }
 
 a {
-    color: var(--secondary-blue);
+    color: var(--secondary-green);
 }
 
 a:hover {
-    color: var(--primary-blue);
+    color: var(--primary-green);
 }
 
 /* Header */
 .site-header {
     background-color: var(--white);
     padding: 15px 0;
-    border-bottom: 3px solid var(--primary-blue);
+    border-bottom: 3px solid var(--primary-green);
 }
 
 .logo-container {
@@ -83,14 +83,14 @@ a:hover {
 }
 
 .logo-img {
-    height: 60px;
+    height: 90px;
     width: auto;
 }
 
 .site-title {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--primary-blue);
+    color: var(--primary-green);
     margin: 0;
 }
 
@@ -102,7 +102,7 @@ a:hover {
 
 /* Navigation */
 .main-nav {
-    background-color: var(--primary-blue);
+    background-color: var(--primary-green);
 }
 
 .main-nav .navbar-nav .nav-link {
@@ -113,11 +113,11 @@ a:hover {
 
 .main-nav .navbar-nav .nav-link:hover,
 .main-nav .navbar-nav .nav-link.active {
-    background-color: var(--secondary-blue);
+    background-color: var(--secondary-green);
 }
 
 .main-nav .dropdown-menu {
-    background-color: var(--primary-blue);
+    background-color: var(--primary-green);
     border: none;
 }
 
@@ -127,7 +127,7 @@ a:hover {
 }
 
 .main-nav .dropdown-item:hover {
-    background-color: var(--secondary-blue);
+    background-color: var(--secondary-green);
 }
 
 .navbar-toggler {
@@ -140,7 +140,7 @@ a:hover {
 
 /* Hero Section (Simple) */
 .hero-section {
-    background-color: var(--primary-blue);
+    background-color: var(--primary-green);
     color: var(--white);
     padding: 60px 0;
     text-align: center;
@@ -157,7 +157,7 @@ a:hover {
 
 /* Page Banner */
 .page-banner {
-    background-color: var(--primary-blue);
+    background-color: var(--primary-green);
     padding: 40px 0;
     text-align: center;
 }
@@ -168,12 +168,12 @@ a:hover {
 }
 
 .page-banner p {
-    color: var(--light-blue);
+    color: var(--light-green);
 }
 
 /* Breadcrumb */
 .breadcrumb {
-    background: var(--light-blue);
+    background: var(--light-green);
     padding: 10px 15px;
     margin-bottom: 0;
 }
@@ -196,13 +196,13 @@ main {
 }
 
 .card-title {
-    color: var(--primary-blue);
+    color: var(--primary-green);
     font-weight: 600;
 }
 
 /* Quick Links Section */
 .quick-links {
-    background-color: var(--light-blue);
+    background-color: var(--light-green);
     padding: 40px 0;
 }
 
@@ -216,55 +216,50 @@ main {
 
 .quick-link-icon {
     font-size: 2.5rem;
-    color: var(--primary-blue);
+    color: var(--primary-green);
     margin-bottom: 10px;
 }
 
 /* Buttons */
-.btn-primary-blue {
-    background-color: var(--primary-blue);
-    border-color: var(--primary-blue);
+.btn-primary-green {
+    background-color: var(--primary-green);
+    border-color: var(--primary-green);
     color: var(--white);
     padding: 10px 20px;
 }
 
-.btn-primary-blue:hover {
-    background-color: var(--secondary-blue);
-    border-color: var(--secondary-blue);
+.btn-primary-green:hover {
+    background-color: var(--secondary-green);
+    border-color: var(--secondary-green);
     color: var(--white);
 }
 
 /* Tables */
 .table thead {
-    background-color: var(--primary-blue);
-    color: var(--white);
-}
-
-.table-primary-blue {
-    background-color: var(--primary-blue);
+    background-color: var(--primary-green);
     color: var(--white);
 }
 
 /* Sidebar */
 .sidebar {
-    background-color: var(--light-blue);
+    background-color: var(--light-green);
     padding: 20px;
 }
 
 .sidebar h3 {
-    border-bottom: 2px solid var(--primary-blue);
+    border-bottom: 2px solid var(--primary-green);
     padding-bottom: 10px;
 }
 
 /* Footer */
 .site-footer {
-    background-color: var(--dark-gray);
+    background-color: var(--primary-green);
     color: var(--white);
     padding: 40px 0 20px;
 }
 
 .site-footer h4 {
-    color: var(--accent-blue);
+    color: var(--accent-green);
 }
 
 .site-footer a {
@@ -279,7 +274,7 @@ main {
 a:focus,
 button:focus,
 input:focus {
-    outline: 2px solid var(--accent-blue);
+    outline: 2px solid var(--accent-green);
 }
 
 /* Responsive */
@@ -287,16 +282,20 @@ input:focus {
     .hero-section {
         padding: 40px 0;
     }
-    
+
     .hero-section h2 {
         font-size: 1.5rem;
     }
-    
+
     h1 {
         font-size: 24px;
     }
-    
+
     .site-title {
         font-size: 1.2rem;
+    }
+
+    .logo-img {
+        height: 70px;
     }
 }
